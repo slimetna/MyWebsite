@@ -1,0 +1,38 @@
+.AllProductsText {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.products {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 55px;
+    margin-bottom: auto;
+    gap: 3px;
+}
+
+.products div {
+    background-color: rgb(238, 238, 238);
+}
+
+.products div h1 {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.products div h2 {
+    font-size: 18px;
+    margin-left: 11px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.products div img {
+    width: 473px;
+    cursor: pointer;
+}

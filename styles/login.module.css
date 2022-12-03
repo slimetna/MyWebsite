@@ -1,0 +1,44 @@
+.loginForm {
+    width: 600px;
+}
+
+.register-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.register-child {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-child input {
+    width: 600px;
+    height: 50px;
+    margin-top: 20px;
+    outline: none;
+    border: solid 1px black;
+}
+
+.register-child a {
+    text-decoration: none;
+    color: violet;
+}
+
+.register_button {
+    width: 600px;
+    height: 60px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

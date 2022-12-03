@@ -1,0 +1,161 @@
+.empty {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-size: 36px;
+}
+
+.left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.left img {
+    background-color: lightgray;
+}
+
+.right {
+    margin-top: 8%;
+    margin-left: 8%;
+    overflow: hidden;
+}
+
+.black {
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    cursor: pointer;
+    border: solid 1px red;
+}
+
+.specific_title {
+    font-size: 45px;
+    padding: 10px;
+}
+
+.specific_price {
+    font-size: 30px;
+    padding: 10px;
+    font-style: italic;
+}
+
+.specific_type {
+    font-size: 20px;
+}
+
+.specific_type2 {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.taille {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.taille:focus {
+    color: red;
+}
+
+.add_to_cart {
+    width: 500px;
+    height: 75px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.info {
+    margin-top: 80px;
+}
+
+.buy {
+    width: 473px;
+    height: 75px;
+    background-color: rgb(51, 51, 51);
+    font-size: 25px;
+    color: white;
+    border: solid 1px white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cart {
+    margin-top: 60px;
+    text-align: center;
+    margin-right: 22px;
+}
+.specific_title {
+    font-size: 45px;
+    padding: 0;
+    margin: 0;
+}
+
+.specific_price {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+}
+
+.specific_type {
+    font-size: 20px;
+}
+
+.specific_type2 {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.taille {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.taille:focus {
+    color: red;
+}
+
+.add_to_cart {
+    width: 500px;
+    height: 75px;
+    background-color: rgb(51, 51, 51);
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.allSpecific {
+    overflow: hidden;
+}
+
+.taille h1:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.redirect {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+

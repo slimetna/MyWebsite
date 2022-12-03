@@ -1,0 +1,130 @@
+.allitems {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: solid 1px gray;
+    background: rgb(250, 250, 250);
+}
+
+.allitems:hover {
+    background: rgb(238, 238, 238);
+}
+
+.allitems img {
+    width: 300px;
+    height: auto;
+}
+
+.iteminfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.quantity {
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 5px;
+}
+
+.quantity button {
+    width: 35px;
+    height: 35px;
+    font-size: 24px;
+    border: solid 1px black;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 15px;
+    font-weight: 900;
+    -webkit-box-shadow: 5px 5px 0px 0px gray, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 0px 0px gray, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.quantity button:hover {
+    border-color: white;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    transition: 0.5s;
+    box-shadow: none;
+}
+
+.quantity h4 {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.editquantity {
+    display: flex;
+    flex-direction: row;
+}
+
+.itemsquantity {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cartinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+
+.cartinfo h2 {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.cartinfo button {
+    width: 125px;
+    height: 30px;
+    font-size: 18px;
+    border: solid 1px black;
+    background-color: white;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 900;
+    -webkit-box-shadow: 5px 5px 0px 0px gray, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 0px 0px gray, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.cartinfo button:hover {
+    border-color: white;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    box-shadow: none;
+}
+
+.checkout {
+    position: absolute;
+    width: 125px;
+    height: 50px;
+    color: white;
+    background: black;
+    border: none;
+    text-align: center;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.checkout:hover {
+    background: white;
+    color: black;
+    border: solid 1px black;
+    transition: 0.5s;
+    cursor: pointer;
+}

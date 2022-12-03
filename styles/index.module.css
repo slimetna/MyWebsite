@@ -1,0 +1,95 @@
+video {
+    width: 100%;
+    height: auto;
+    z-index: -2;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+}
+
+footer li {
+    list-style: none;
+}
+
+.mentions {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 100px;
+}
+
+.subscribe {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.subscribe h1 {
+    margin-top: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.subnewsjap {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.mentions {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.inputMail {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.inputMail input {
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 400px;
+    height: 50px;
+}
+
+.inputMail input:focus {
+    outline: none;
+}
+
+.inputMail input::placeholder {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.subscribe_button {
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: gray;
+    color: white;
+    width: 150px;
+    height: 53px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.copyright {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+.LastDropText {
+    text-align: center;
+    margin-top: 50px;
+}
